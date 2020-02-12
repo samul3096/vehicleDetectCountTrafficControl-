@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c9371ee-d472-4222-8f6f-8eac29a20ac2" name="Default Changelist" comment="" />
+    <list default="true" id="5c9371ee-d472-4222-8f6f-8eac29a20ac2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/po2.py" beforeDir="false" afterPath="$PROJECT_DIR$/po2.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +17,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WstdA3zOiBvbvy4YiUozlbRnz0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -144,11 +151,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Python" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Failed" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Python" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
@@ -180,22 +182,22 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="524" y="308" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1580893945262" />
-    <state width="1039" height="275" key="GridCell.Tab.0.bottom" timestamp="1581518723304">
+    <state width="1039" height="275" key="GridCell.Tab.0.bottom" timestamp="1581523530525">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1039" height="275" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1581518723304" />
-    <state width="1039" height="275" key="GridCell.Tab.0.center" timestamp="1581518723304">
+    <state width="1039" height="275" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1581523530525" />
+    <state width="1039" height="275" key="GridCell.Tab.0.center" timestamp="1581523530525">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1039" height="275" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1581518723304" />
-    <state width="1039" height="275" key="GridCell.Tab.0.left" timestamp="1581518723304">
+    <state width="1039" height="275" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1581523530525" />
+    <state width="1039" height="275" key="GridCell.Tab.0.left" timestamp="1581523530525">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1039" height="275" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1581518723304" />
-    <state width="1039" height="275" key="GridCell.Tab.0.right" timestamp="1581518723304">
+    <state width="1039" height="275" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1581523530525" />
+    <state width="1039" height="275" key="GridCell.Tab.0.right" timestamp="1581523530525">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1039" height="275" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1581518723304" />
+    <state width="1039" height="275" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1581523530525" />
     <state width="1039" height="75" key="GridCell.Tab.1.bottom" timestamp="1580293790224">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

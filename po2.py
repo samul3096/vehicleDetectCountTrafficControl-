@@ -1,6 +1,7 @@
 import cv2 as cv
 import numpy as np
 import tkinter as tk
+#from matplotlib import pyplot as plt
 
 img2=cv.imread("red.jpg")
 img3=cv.imread(("green.jpg"))
@@ -19,7 +20,7 @@ def CheckEntranceLineCrossing(y, x):
         return 0
 
 
-#from matplotlib import pyplot as plt
+
 
 def detectCount(vid):
     img =cv.VideoCapture(vid)#"tf0.mp4"
@@ -39,6 +40,7 @@ def detectCount(vid):
 
     while(img.isOpened()):
         ret, frame1 = img.read()
+
         #height = frame1.shape[0]
         #width = frame1.shape[1]
 
@@ -52,6 +54,7 @@ def detectCount(vid):
                 width = np.size(frame1, 1)
             except IndexError:
                 pass
+
             fgmask = fgbg.apply(frame1)
             _, thres = cv.threshold(fgmask, 200, 255, cv.THRESH_BINARY)
             mask1 = cv.morphologyEx(thres, cv.MORPH_OPEN, kernalOp2)
@@ -103,7 +106,7 @@ def detectCount(vid):
                     #contour_list.append(contour)
                     (x, y, w, h) = cv.boundingRect(contour)
                     #m = cv.moments(contour)
-                    cx = (x+x+w)//2             #int(m['m10'] / m['m00'])
+                    cx = (x+x+w)//2                         #int(m['m10'] / m['m00'])
                     cy = (y+y+h)//2                         #int(m['m01'] / m['m00'])
                     estimatedCenter=(cx,cy)
 
