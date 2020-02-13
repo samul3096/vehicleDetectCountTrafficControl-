@@ -2,13 +2,14 @@ import cv2 as cv
 import numpy as np
 import tkinter as tk
 #from matplotlib import pyplot as plt
-
+from collections import deque
 img2=cv.imread("red.jpg")
 img3=cv.imread(("green.jpg"))
 img4=cv.imread("yellow.jpg")
 img3=cv.resize(img3, (200, 200))
 img2=cv.resize(img2,(200, 200))
 img4=cv.resize(img4,(200, 200))
+cascadeCar='cars.xml'
 
 
 def CheckEntranceLineCrossing(y, x):
@@ -24,6 +25,7 @@ def CheckEntranceLineCrossing(y, x):
 
 def detectCount(vid):
     img =cv.VideoCapture(vid)#"tf0.mp4"
+    carCas=cv.CascadeClassifier(cascadeCar)
 
     #kernel = cv.getStructuringElement(cv.MORPH_ELLIPSE,(3,3))
     #kernalOp = np.ones((3,3),np.uint8)
@@ -39,7 +41,8 @@ def detectCount(vid):
     #ret, frame2 = img.read()
 
     while(img.isOpened()):
-        ret, frame1 = img.read()
+        ret, frame = img.read()
+
 
         #height = frame1.shape[0]
         #width = frame1.shape[1]
@@ -48,14 +51,17 @@ def detectCount(vid):
 
         if ret==False:
             print ('No Video Found!!')
-            break;
+            break
         else:
+            frame1 = cv.resize(frame, (900, 400))
             try:
                 width = np.size(frame1, 1)
             except IndexError:
                 pass
 
+            carsFilter = carCas.detectMultiScale(frame1,1.1,1)
             fgmask = fgbg.apply(frame1)
+
             _, thres = cv.threshold(fgmask, 200, 255, cv.THRESH_BINARY)
             mask1 = cv.morphologyEx(thres, cv.MORPH_OPEN, kernalOp2)
             mask2= cv.morphologyEx(mask1, cv.MORPH_CLOSE, kernalCl)
@@ -89,8 +95,10 @@ def detectCount(vid):
             #dilated=cv.dilate(medianFiltered2,kernel ,iterations=20)
             #blur = cv.GaussianBlur(dilated, (5, 5), 0)
 
+            for (x1, y1, w1, h1) in carsFilter:
+                cv.rectangle(frame1, (x1, y1), (x1 + w1, y1 + h1), (0, 255, 255), 2)
             #fgmask = cv.morphologyEx(blur, cv.MORPH_OPEN, kernel)"""
-            CoorYEntranceLine = 664    #(height // 2)+100
+            CoorYEntranceLine = 355    #(height // 2)+100
            # CoorYExitLine = (height // 2) - OffsetRefLines
 
             cv.line(frame1, (0, CoorYEntranceLine), (width, CoorYEntranceLine), (0, 0xFF, 0), 5)
@@ -121,7 +129,7 @@ def detectCount(vid):
                             #continue
                     #continue
 
-                cv.rectangle(frame1, (x, y), (x + w, y + h), (0, 255, 0), 2)
+                #cv.rectangle(frame1, (x, y), (x + w, y + h), (0, 255, 0), 2)
                 #cv.drawContours(frame, contour_list, 3, (255, 0, 0), 2)
 
 
