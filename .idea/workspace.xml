@@ -43,7 +43,28 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Python.smooth">
+  <component name="RunManager" selected="Python.gradient_edge">
+    <configuration name="gradient_edge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="p2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gradient_edge.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="morpho_threshold" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,27 +99,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/po2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="po3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="p2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="D:/CVtutorial/cvProject/po3" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:/CVtutorial/cvProject/po3/po3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gradient_edge" />
         <item itemvalue="Python.smooth" />
         <item itemvalue="Python.so1" />
         <item itemvalue="Python.po2" />
         <item itemvalue="Python.morpho_threshold" />
-        <item itemvalue="Python.po3" />
       </list>
     </recent_temporary>
   </component>
@@ -203,22 +203,22 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="524" y="308" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1580893945262" />
-    <state width="1039" height="275" key="GridCell.Tab.0.bottom" timestamp="1582481010871">
+    <state width="1039" height="275" key="GridCell.Tab.0.bottom" timestamp="1582702936596">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1039" height="275" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1582481010871" />
-    <state width="1039" height="275" key="GridCell.Tab.0.center" timestamp="1582481010871">
+    <state width="1039" height="275" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1582702936596" />
+    <state width="1039" height="275" key="GridCell.Tab.0.center" timestamp="1582702936596">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1039" height="275" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1582481010871" />
-    <state width="1039" height="275" key="GridCell.Tab.0.left" timestamp="1582481010870">
+    <state width="1039" height="275" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1582702936596" />
+    <state width="1039" height="275" key="GridCell.Tab.0.left" timestamp="1582702936595">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1039" height="275" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1582481010870" />
-    <state width="1039" height="275" key="GridCell.Tab.0.right" timestamp="1582481010871">
+    <state width="1039" height="275" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1582702936595" />
+    <state width="1039" height="275" key="GridCell.Tab.0.right" timestamp="1582702936596">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1039" height="275" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1582481010871" />
+    <state width="1039" height="275" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1582702936596" />
     <state width="1039" height="75" key="GridCell.Tab.1.bottom" timestamp="1580293790224">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -247,9 +247,9 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="565" y="137" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.30.1536.834@0.30.1536.834" timestamp="1580895423026" />
-    <state x="392" y="286" width="672" height="676" key="search.everywhere.popup" timestamp="1580822500178">
+    <state x="392" y="286" width="672" height="676" key="search.everywhere.popup" timestamp="1582699664288">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="392" y="286" width="672" height="676" key="search.everywhere.popup/0.30.1536.834@0.30.1536.834" timestamp="1580822500178" />
+    <state x="392" y="286" width="672" height="676" key="search.everywhere.popup/0.30.1536.834@0.30.1536.834" timestamp="1582699664288" />
   </component>
 </project>
