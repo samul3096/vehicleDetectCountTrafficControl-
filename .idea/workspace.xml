@@ -20,7 +20,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WstdA3zOiBvbvy4YiUozlbRnz0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -43,7 +45,28 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Python.gradient_edge">
+  <component name="RunManager" selected="Python.fore_back">
+    <configuration name="fore_back" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="p2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fore_back.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="gradient_edge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,27 +101,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="D:/CVtutorial/cvProject/threshoding+morphologovalTransformation/morpho_threshold.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="po2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="p2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/po2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.fore_back" />
+        <item itemvalue="Python.morpho_threshold" />
         <item itemvalue="Python.gradient_edge" />
         <item itemvalue="Python.smooth" />
         <item itemvalue="Python.so1" />
-        <item itemvalue="Python.po2" />
-        <item itemvalue="Python.morpho_threshold" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +170,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Python" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Python" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Failed" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -203,42 +210,42 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="524" y="308" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1580893945262" />
-    <state width="1039" height="275" key="GridCell.Tab.0.bottom" timestamp="1582702936596">
+    <state width="1039" height="275" key="GridCell.Tab.0.bottom" timestamp="1583308883754">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1039" height="275" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1582702936596" />
-    <state width="1039" height="275" key="GridCell.Tab.0.center" timestamp="1582702936596">
+    <state width="1039" height="275" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1583308883754" />
+    <state width="1039" height="275" key="GridCell.Tab.0.center" timestamp="1583308883754">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1039" height="275" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1582702936596" />
-    <state width="1039" height="275" key="GridCell.Tab.0.left" timestamp="1582702936595">
+    <state width="1039" height="275" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1583308883754" />
+    <state width="1039" height="275" key="GridCell.Tab.0.left" timestamp="1583308883753">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1039" height="275" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1582702936595" />
-    <state width="1039" height="275" key="GridCell.Tab.0.right" timestamp="1582702936596">
+    <state width="1039" height="275" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1583308883753" />
+    <state width="1039" height="275" key="GridCell.Tab.0.right" timestamp="1583308883754">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1039" height="275" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1582702936596" />
-    <state width="1039" height="75" key="GridCell.Tab.1.bottom" timestamp="1580293790224">
+    <state width="1039" height="275" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1583308883754" />
+    <state width="1039" height="275" key="GridCell.Tab.1.bottom" timestamp="1583298264306">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1039" height="75" key="GridCell.Tab.1.bottom/0.30.1536.834@0.30.1536.834" timestamp="1580293790224" />
-    <state width="1039" height="75" key="GridCell.Tab.1.center" timestamp="1580293790223">
+    <state width="1039" height="275" key="GridCell.Tab.1.bottom/0.30.1536.834@0.30.1536.834" timestamp="1583298264306" />
+    <state width="1039" height="275" key="GridCell.Tab.1.center" timestamp="1583298264305">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1039" height="75" key="GridCell.Tab.1.center/0.30.1536.834@0.30.1536.834" timestamp="1580293790223" />
-    <state width="1039" height="75" key="GridCell.Tab.1.left" timestamp="1580293790223">
+    <state width="1039" height="275" key="GridCell.Tab.1.center/0.30.1536.834@0.30.1536.834" timestamp="1583298264305" />
+    <state width="1039" height="275" key="GridCell.Tab.1.left" timestamp="1583298264305">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1039" height="75" key="GridCell.Tab.1.left/0.30.1536.834@0.30.1536.834" timestamp="1580293790223" />
-    <state width="1039" height="75" key="GridCell.Tab.1.right" timestamp="1580293790224">
+    <state width="1039" height="275" key="GridCell.Tab.1.left/0.30.1536.834@0.30.1536.834" timestamp="1583298264305" />
+    <state width="1039" height="275" key="GridCell.Tab.1.right" timestamp="1583298264305">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1039" height="75" key="GridCell.Tab.1.right/0.30.1536.834@0.30.1536.834" timestamp="1580293790224" />
-    <state x="412" y="149" key="SettingsEditor" timestamp="1582091522933">
+    <state width="1039" height="275" key="GridCell.Tab.1.right/0.30.1536.834@0.30.1536.834" timestamp="1583298264305" />
+    <state x="412" y="149" key="SettingsEditor" timestamp="1583138489535">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="412" y="149" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1582091522933" />
+    <state x="412" y="149" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1583138489535" />
     <state x="431" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1580193984247">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
