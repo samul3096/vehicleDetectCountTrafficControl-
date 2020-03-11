@@ -1,5 +1,5 @@
 import serial
-
+import po2
 ard_srl=serial.Serial('com6',9600)
 print ard_srl.readline()
 print ("Enter 1 to ON and 0 to OFF")

@@ -4,6 +4,7 @@
     <list default="true" id="5c9371ee-d472-4222-8f6f-8eac29a20ac2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ardu_tk.py" beforeDir="false" afterPath="$PROJECT_DIR$/ardu_tk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/po2.py" beforeDir="false" afterPath="$PROJECT_DIR$/po2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +14,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Stub" />
         <option value="Python Script" />
       </list>
     </option>
@@ -46,7 +48,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ardu_tk">
+  <component name="RunManager" selected="Python.so1">
     <configuration name="ardu_tk" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,7 +70,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fore_back" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="fore_grabcut" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,7 +82,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fore_back.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fore_grabcut.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gradient_edge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="manual_subtraction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,7 +103,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gradient_edge.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manual_subtraction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,28 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="morpho_threshold" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="p2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="D:/CVtutorial/cvProject/threshoding+morphologovalTransformation" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:/CVtutorial/cvProject/threshoding+morphologovalTransformation/morpho_threshold.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="smooth" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="po2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,7 +124,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/smooth.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/po2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="so1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="p2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/so1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.so1" />
+        <item itemvalue="Python.manual_subtraction" />
+        <item itemvalue="Python.fore_grabcut" />
         <item itemvalue="Python.ardu_tk" />
-        <item itemvalue="Python.fore_back" />
-        <item itemvalue="Python.morpho_threshold" />
-        <item itemvalue="Python.gradient_edge" />
-        <item itemvalue="Python.smooth" />
+        <item itemvalue="Python.po2" />
       </list>
     </recent_temporary>
   </component>
@@ -206,22 +208,22 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="524" y="308" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1580893945262" />
-    <state width="1039" height="275" key="GridCell.Tab.0.bottom" timestamp="1583656555018">
+    <state width="1039" height="286" key="GridCell.Tab.0.bottom" timestamp="1583943948221">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1039" height="275" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1583656555018" />
-    <state width="1039" height="275" key="GridCell.Tab.0.center" timestamp="1583656555018">
+    <state width="1039" height="286" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1583943948221" />
+    <state width="1039" height="286" key="GridCell.Tab.0.center" timestamp="1583943948221">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1039" height="275" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1583656555018" />
-    <state width="1039" height="275" key="GridCell.Tab.0.left" timestamp="1583656555018">
+    <state width="1039" height="286" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1583943948221" />
+    <state width="1039" height="286" key="GridCell.Tab.0.left" timestamp="1583943948221">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1039" height="275" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1583656555018" />
-    <state width="1039" height="275" key="GridCell.Tab.0.right" timestamp="1583656555018">
+    <state width="1039" height="286" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1583943948221" />
+    <state width="1039" height="286" key="GridCell.Tab.0.right" timestamp="1583943948221">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1039" height="275" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1583656555018" />
+    <state width="1039" height="286" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1583943948221" />
     <state width="1039" height="275" key="GridCell.Tab.1.bottom" timestamp="1583298264306">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

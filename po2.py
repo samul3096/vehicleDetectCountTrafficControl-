@@ -1,8 +1,10 @@
 import cv2 as cv
 import numpy as np
+import serial
 import tkinter as tk
 #from matplotlib import pyplot as plt
 from collections import deque
+
 img2=cv.imread("red.jpg")
 img3=cv.imread(("green.jpg"))
 img4=cv.imread("yellow.jpg")
@@ -10,7 +12,7 @@ img3=cv.resize(img3, (200, 200))
 img2=cv.resize(img2,(200, 200))
 img4=cv.resize(img4,(200, 200))
 cascadeCar='cars.xml'
-
+ard_srl = serial.Serial('com6', 9600)
 
 def CheckEntranceLineCrossing(y, x):
     # absDistance = abs(y - x)
@@ -19,8 +21,6 @@ def CheckEntranceLineCrossing(y, x):
         return 1
     else:
         return 0
-
-
 
 
 def detectCount(vid):
@@ -149,12 +149,22 @@ def detectCount(vid):
             cv.imshow('Objects Detected2', mask2)
 
         #def trafficControl(carCnt):
+
+
+            #print ard_srl.readline()
+            #print ("Enter 1 to ON and 0 to OFF")
+
+
+
             if (carCnt >= 0 and carCnt <= 5):
+                    ard_srl.write('0')
                     cv.imshow('GREENsignal', img3)
             elif (carCnt >= 6 and carCnt <= 9):
+                    ard_srl.write('1')
                     cv.destroyWindow('GREENsignal')
                     cv.imshow('YELLOWsignal', img4)
             elif (carCnt >= 10):
+                    ard_srl.write('2')
                     cv.destroyWindow('YELLOWsignal')
                     cv.imshow('REDsignal', img2)
 
@@ -170,5 +180,8 @@ def detectCount(vid):
                 #cv.imshow("mask",fgmask)
             if cv.waitKey(10) & 0xFF == ord('q'):
                 break
+    sbb="Total counted car: "
+
+    print sbb,carCnt
     img.release() # Destroys the capture object
     cv.destroyAllWindows() # Destroys all the windows"""
