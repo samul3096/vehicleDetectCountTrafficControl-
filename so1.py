@@ -6,6 +6,7 @@ import cv2 as cv
 #window.mainloop()
 
 po2.detectCount('tf0.mp4')
+
 """cv.imshow('out1',out)
 if cv.waitKey(10) & 0xFF == ord('q'):
     
